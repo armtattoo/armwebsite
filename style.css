@@ -1,0 +1,136 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+
+ background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  
+  
+
+a {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px red;
+
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+
+  }
+
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  border: 2px solid #ff0000;
+}
+
+.wc1 {
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+.outer-header {
+  display:flex;
+
+  flex-direction: column;
+}
+
+.inner-header {
+  flex:1;
+  
+
+  display:flex;
+}
+
+.menu-container {
+  flex: 1;
+  flex-direction: row;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+  border: 2px solid #ffffff;
+}
+.tattoo {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 20px 20px 30px #ffffff;
+  
+}
+
+.playwrite-au-tas {
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+  
+}
+
+main {
+  display:flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #66ff00 ;
+  margin: 2px ;
+  
+}
+
+.picture-container {
+  background-color: black;
+  flex: 1;
+
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid white;
+}
+
+.picture-container-inner {
+  flex:1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+  border: 5px solid #ff0000;
+
+  height: 330px;
+  width: 330px;
+
+  margin: 10px;
+  
+
+}
+
+.picture-container-inner img {
+  max-height: 331px;
+  max-width: 331px;
+}
+
+iframe {
+  width:845px;  
+  height:480px;
+}
+
+  button {
+    background-color: #000000;
+    color: #fff;
+  
+    border: 2px solid #ff0000;
+    width: 500px;
+    height: 50px;
+  
+  }
