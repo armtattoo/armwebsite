@@ -6,8 +6,8 @@ html {
 body {
 
  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
-  
-  
+
+
 
 a {
   font-size: 20px;
@@ -44,7 +44,7 @@ header img {
 
 .inner-header {
   flex:1;
-  
+
 
   display:flex;
 }
@@ -64,7 +64,7 @@ header img {
   text-align: center;
   font-size: 50px;
   text-shadow: 20px 20px 30px #ffffff;
-  
+
 }
 
 .playwrite-au-tas {
@@ -73,7 +73,7 @@ header img {
   font-weight: <weight>;
   font-style: normal;
 
-  
+
 }
 
 main {
@@ -84,7 +84,7 @@ main {
   justify-content: center;
   border: 2px solid #66ff00 ;
   margin: 2px ;
-  
+
 }
 
 .picture-container {
@@ -103,7 +103,7 @@ main {
 
   display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
 
   border: 5px solid #ff0000;
 
@@ -111,7 +111,7 @@ main {
   width: 330px;
 
   margin: 10px;
-  
+
 
 }
 
@@ -121,16 +121,16 @@ main {
 }
 
 iframe {
-  width:845px;  
+  width:845px;
   height:480px;
 }
 
   button {
     background-color: #000000;
     color: #fff;
-  
+
     border: 2px solid #ff0000;
     width: 500px;
     height: 50px;
-  
+
   }
